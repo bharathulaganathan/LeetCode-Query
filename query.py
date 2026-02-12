@@ -12,12 +12,12 @@ def leetcode_query(query, variables=None):
     headers = {
         'Content-Type': 'application/json',
     }
-    
+
     payload = {
         'query': query,
         'variables': variables or {}
     }
-    
+
     response = requests.post(
         LEETCODE_API_URL,
         json=payload,
