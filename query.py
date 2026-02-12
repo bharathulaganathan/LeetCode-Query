@@ -323,7 +323,3 @@ def randomQuestionV2():
         }
     """
     return leetcode_query(query)
-
-
-if "__main__" == __name__:
-    main()
