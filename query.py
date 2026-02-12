@@ -1,8 +1,6 @@
 import requests
 import json
 
-def check():
-    print("Checking...")
 
 def leetcode_query(query, variables=None):
     """
