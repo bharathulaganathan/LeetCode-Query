@@ -23,7 +23,7 @@ def leetcode_query(query, variables=None):
         json=payload,
         headers=headers
     )
-    
+
     return response.json()
 
 
