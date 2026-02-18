@@ -1,5 +1,4 @@
 import requests
-import json
 
 
 def leetcode_query(query, variables=None):
